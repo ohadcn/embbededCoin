@@ -43,7 +43,7 @@ all: tests test-openssl
 %.o: %.c %.h options.h
 	$(CC) $(CFLAGS) -o $@ -c $<
 
-tests: tests.o $(OBJS)
+tests: tests-crypto.o $(OBJS)
 	$(CC) tests.o $(OBJS) $(TESTLIBS) -o tests
 
 test-openssl: test-openssl.o $(OBJS)
