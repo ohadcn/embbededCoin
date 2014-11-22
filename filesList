@@ -9,7 +9,15 @@ signing.c
 signing.h
 types.pb.h
 
-my creation:
+created by github:
 README.md
+
+some files created automatically by qtcreator IDE:
+deployment.pri
+embbededCoin.pro
+embbededCoin.pro.user
+
+i made:
+main.c
 
 The rest of the files are from https://github.com/trezor/trezor-crypto created by Tomas Dzetkulic <dzetkulic@gmail.com> and Pavol Rusnak <stick@gk2.sk>.
