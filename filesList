@@ -1,0 +1,15 @@
+
+
+list of files taken from https://github.com/trezor/trezor-mcu :
+coins.c
+coins.h
+transaction.c
+transaction.h
+signing.c
+signing.h
+types.pb.h
+
+my creation:
+README.md
+
+The rest of the files are from https://github.com/trezor/trezor-crypto created by Tomas Dzetkulic <dzetkulic@gmail.com> and Pavol Rusnak <stick@gk2.sk>.
